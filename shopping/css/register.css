@@ -1,0 +1,115 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+header {
+    height: 84px;
+    border-bottom: 2px solid #c81523;
+}
+header .logo img {
+    padding-top: 18px;
+}
+.registerarea {
+    height: 522px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+.registerarea h3 {
+    height: 42px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    line-height: 42px;
+    padding: 0 10px;
+    font-weight: 400;
+}
+.registerarea h3 .left {
+    float: left;
+    font-size: 18px;
+}
+.registerarea h3 .right {
+    float: right;
+    font-size: 14px;
+}
+.registerarea h3 .right a {
+    float: right;
+    color: #c81523;
+}
+.reg_form {
+    width: 600px;
+    margin: 50px auto 0;
+}
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+.reg_form ul li .inp {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+.reg_form ul li .error {
+    color: #c81523;
+}
+.reg_form ul li .error .error_icon {
+    background: url(../images/error.png) no-repeat;
+}
+.reg_form ul li .seccess {
+    color: green;
+}
+.reg_form ul li .seccess .seccess_icon {
+    background: url(../images/success.png) no-repeat;
+}
+.error_icon,.seccess_icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    margin-top: -2px;
+}
+.reg_form ul .safe {
+    padding-left: 165px;
+}
+.reg_form ul .safe em {
+   padding: 0 12px;
+   color: #fff;
+}
+.reg_form ul .safe .ruo {
+    background-color:red;
+}
+.reg_form ul .safe .zhong{
+    background-color: yellow;
+}
+.reg_form ul .safe .qiang {
+    background-color: green;
+}
+.agree {
+    padding-left: 95px;
+}
+.agree input {
+    vertical-align: middle;
+}
+.agree a {
+    margin-left: 5px;
+    color: #1ba1e6;
+}
+.btn {
+    margin: 30px 0 0 90px;
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+}
+.mod_copyright {
+    text-align: center;
+    margin-top: 20px;
+    line-height: 20px;
+}
+.mod_copyright .link {
+    margin-bottom: 20px;
+}
+.mod_copyright .link a {
+    margin:0 8px;
+}

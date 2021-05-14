@@ -1,0 +1,300 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+.main .focus {
+    position: relative;
+    float: left;
+    width: 721px;
+    height: 455px;
+    padding-left: 5px;
+    overflow: hidden;
+} 
+/* 左右按钮 */
+.focus .arrow_l
+,.arrow_r{
+    display: none;
+    position: absolute;
+    top: 210px;
+    font-family: 'icomoon';
+    font-size: 20px;
+    color: #000;
+    z-index: 3;
+}
+.focus .arrow_l{
+    left: 5px;
+}
+.arrow_r{
+    right: 5px;
+}
+/* 中间图片 */
+.focus ul li{
+    float: left;
+}
+.focus ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600%;
+    background-color: pink;
+}
+/* 小圆圈 */
+
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    /*background-color: #fff;*/
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    margin: 0 3px;
+    border-radius: 50%;
+    /*鼠标经过显示小手*/
+    cursor: pointer;
+}
+.current {
+    background-color: #fff;
+}
+
+.main .newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+.main .newsflash .news {
+    height:165px ;
+    border: 1px solid #e4e4e4;
+}
+.main .newsflash .news .news_hd {
+    height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    line-height: 33px;
+    padding: 0 15px;
+}
+.main .newsflash .news .news_hd h5 {
+    float: left;
+    font-style: 14px;
+}
+.main .newsflash .news .news_hd .more {
+    float: right;  
+}
+.main .newsflash .news .news_hd .more::after {
+    content: '\e917';
+    font-family: 'icomoon';
+}
+.main .newsflash .news .news_bd {
+    padding: 5px 15px 0;
+}
+.main .newsflash .news .news_bd ul li{
+    height: 24px;
+    line-height: 24px;
+}
+.main .newsflash .lifeservice {
+    overflow: hidden;
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+}
+.main .newsflash .lifeservice ul {
+    width: 252px;
+}
+.main .newsflash .lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+.main .newsflash .lifeservice ul li i {
+    display: inline-block;
+    width: 26px;
+    height: 28px;
+    margin-top: 12px;
+}
+.main .newsflash .lifeservice ul li .hua{
+    background: url(../images/icons.png) no-repeat -19px -15px;
+}
+.main .newsflash .lifeservice ul li .ji {
+    background: url(../images/icons.png) no-repeat -79px -15px;
+}
+.main .newsflash .lifeservice ul li .dian {
+    background: url(../images/icons.png) no-repeat -141px -15px;
+}
+.main .newsflash .lifeservice ul li .you {
+    background: url(../images/icons.png) no-repeat -205px -15px;
+}
+.main .newsflash .lifeservice ul li .cai {
+    background: url(../images/icons.png) no-repeat -16px -86px;
+}
+.main .newsflash .lifeservice ul li .jia {
+    background: url(../images/icons.png) no-repeat -76px -86px;
+}
+.main .newsflash .lifeservice ul li .jiu {
+    background: url(../images/icons.png) no-repeat -140px -86px;
+}
+.main .newsflash .lifeservice ul li .huo {
+    background: url(../images/icons.png) no-repeat -202px -86px;
+}
+.main .newsflash .lifeservice ul li .zhong {
+    background: url(../images/icons.png) no-repeat -14px -157px;
+}
+.main .newsflash .lifeservice ul li .licai {
+    background: url(../images/icons.png) no-repeat -78px -157px;
+}
+.main .newsflash .lifeservice ul li .lipin {
+    background: url(../images/icons.png) no-repeat -140px -157px;
+}
+.main .newsflash .lifeservice ul li .bai {
+    background: url(../images/icons.png) no-repeat -202px -157goushumapx;
+}
+.main .newsflash .bargain img{
+   margin-top: 5px;
+}
+/* 推荐模块 */
+.recom {
+    height: 163px;
+    background-color:#ebebeb;
+    margin-top: 12px;
+}
+.recom_hd {
+    float: left;
+    width: 205px;
+    height: 100%;
+    background-color: #5c5251;
+    text-align: center;
+    padding-top: 40px;
+}
+.recom_bd {
+    float: left;
+}
+.recom_bd ul li {
+    position: relative;
+    float: left;
+}
+.recom_bd ul li a img {
+    width: 248px;
+    height: 163px;
+}
+.recom_bd ul li:nth-child(-n+3)::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+/* 楼层模块 */
+.floor {
+    margin-top: 30px;
+}
+.floor .jiadian .box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+.floor .jiadian .box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color:  #c81623;
+    font-weight: 400;
+}
+.floor .jiadian .box_hd .tab_list {
+    float: right;
+}
+.floor .jiadian .box_hd .tab_list ul li {
+    float: left;
+}
+.floor .jiadian .box_hd .tab_list ul li a {
+    margin: 0 15px;
+    line-height: 30px;
+}
+.floor .jiadian .box_bd {
+    height: 361px;
+}
+.tab_list_item>div {
+    float: left;
+}
+.tab_list_item>div:nth-child(1) {
+    width: 210px;
+    height: 361px;
+    background-color: #f9f9f9;
+    
+}
+.tab_list_item>div:nth-child(1) ul {
+    margin-left: 12px;
+}
+.tab_list_item>div:nth-child(1) ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #cccccc;
+    line-height: 33px;
+    text-align: center;
+    margin-right: 12px;
+}
+.tab_list_item>div:nth-child(2) {
+    width: 329px;
+}
+.tab_list_item>div:nth-child(3) {
+    width: 221px;
+}
+.tab_list_item>div:nth-child(3) a{
+    display: block;
+    width: 100%;
+    border-bottom:1px solid #cccccc ;
+}
+
+.tab_list_item>div:nth-child(4) {
+    width: 219px;
+    border-left:1px solid #cccccc ;
+    border-bottom: 1px solid #ccc;
+}
+.tab_list_item>div:nth-child(5) {
+    width: 221px;
+    border-left:1px solid #cccccc ;
+}
+.tab_list_item>div:nth-child(5) a {
+    display: block;
+    width: 100%;
+    border-bottom:1px solid #cccccc ;
+}
+
+/*电梯导航*/
+.fixedtool {
+    position: fixed;
+    display: none;
+    top: 223px;
+    left: 50%;
+    margin-left: -676px;
+    width: 66px;
+    background-color: #fff;
+}
+
+.fixedtool li {
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.fixedtool .current {
+    background-color: #c81623;
+    color: #fff;
+}
+
+.dd ul li:hover a{
+    margin-left: 8px;
+}
+.floor img:hover {
+    margin-left: 8px;
+}

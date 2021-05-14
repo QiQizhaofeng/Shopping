@@ -1,0 +1,176 @@
+.cart-filter-bar em{
+    font-size: 16px;
+    color: #c81623;
+    border-bottom:2px solid #c81623;
+    height: 30px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.cart-thead{
+    position: relative;
+    height: 36px;
+    width: 100%;
+    background-color: #f1f1f1;
+   
+}
+.cart-thead div{
+    position: absolute;
+    left: 5px;
+    top: 0;
+    line-height: 36px;
+    text-align: center;
+}
+.cart-thead .t-checkbox
+,.p-checkbox{
+    left: 10px;
+}
+.cart-thead .t-checkbox input{
+   vertical-align:middle;
+}
+.cart-thead .t-goods
+,.p-goods{
+    left: 160px;
+}
+.cart-thead .t-price{
+    left:675px;
+}
+.p-price{
+    left:660px;
+}
+.cart-thead .t-num{
+    left:800px;
+}
+.p-num{
+    left:780px;
+}
+.cart-thead .t-sum{
+    left:955px;
+}
+.p-sum{
+    left:940px;
+}
+.cart-thead .t-action
+,.p-action{
+   left: 1060px;
+}
+.p-img img{
+    width: 120px;
+    height: 120px;
+}
+img{
+    width: 90px;
+    height: 90px;
+}
+
+/* .cart-item-list{
+    
+} */
+.cart-item{
+    position: relative;
+    margin-top: 10px;
+    padding: 10px 10px;
+    height:150px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-top-color:#000 ;
+    font-size: 14px;
+}
+.check-cart-item{
+    background-color:rgba(0, 0, 0, .1);
+}
+.cart-item div{
+    position: absolute;
+   
+}
+.p-goods{
+    height: 200px;
+    /* background-color:pink; */
+}
+.p-msg{
+    position: absolute;
+    top: 5px;
+    left: 160px;
+    width: 200px;
+
+}
+.quantity-form{
+   
+    width:100px;
+    height: 24px;
+    line-height: 24px;
+}
+.quantity-form input{
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, .5);
+    vertical-align: top;
+}
+.quantity-form a{
+    display: inline-block;
+    font-size: 20px;
+    width: 20px;
+    height: 24px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, .5);
+ 
+}
+.cart-floatbar{
+    position: relative;
+    height: 36px;
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid rgba(0, 0, 0, .1);
+    line-height: 36px;
+}
+.select-all{
+    position: absolute;
+    left: 10px;
+}
+.checkall{
+    vertical-align:middle;
+}
+.operation{
+    position: absolute;
+    left:80px;
+}
+.operation a{
+    margin-left: 30px;
+}
+.toolbar-right{
+    position: absolute;
+
+    right: 0;
+}
+.toolbar-right div{
+    top: 0;
+    text-align: center;
+}
+.amount-sum{
+    position: absolute;
+   
+    right: 300px;
+    width: 100px;
+}
+.price-sum{
+    position: absolute;
+    right: 100px;
+    width:150px;
+}
+.btn-area{
+    position: absolute;
+    width: 50px;
+    right: 0;
+    background-color: #c81623;
+    color: white;
+   
+}
+.checkall
+,.btn-area:hover{
+    cursor: pointer;
+}
+.toolbar-right em{
+    color: #c81623;
+}
